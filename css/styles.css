@@ -22,6 +22,10 @@ body{
     justify-content: space-between;
     padding: 2em;
 }
+.brand{
+    margin-top: -8px;
+    margin-left: 20px;
+}
 
 .brand span{
     color:#548CA8;
@@ -40,6 +44,7 @@ body{
 .menu a{
     color: white;
     text-decoration: none;
+    padding: 10px 20px;
 }
 
 .menu .active{
@@ -47,5 +52,7 @@ body{
 }
 
 .menu a:hover{
-    color: #FFD523;
+    color: turquoise;
+    background-color: #476072;
+    transition: ease-in .4s;
 }
